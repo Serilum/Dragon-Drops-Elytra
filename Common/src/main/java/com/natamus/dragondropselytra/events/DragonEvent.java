@@ -1,6 +1,6 @@
 package com.natamus.dragondropselytra.events;
 
-import com.natamus.collective.functions.StringFunctions;
+import com.natamus.collective.functions.MessageFunctions;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.damagesource.DamageSource;
@@ -42,7 +42,7 @@ public class DragonEvent {
 			player = (Player)source;
 		}
 		
-		StringFunctions.broadcastMessage(world, "It seems like the slain Ender Dragon dropped an elytra! Perhaps it previously belonged to another adventurer?", ChatFormatting.DARK_GREEN);
+		MessageFunctions.broadcastMessage(world, "It seems like the slain Ender Dragon dropped an elytra! Perhaps it previously belonged to another adventurer?", ChatFormatting.DARK_GREEN);
 		
 		ItemStack elytrastack = new ItemStack(Items.ELYTRA, 1);
 		if (player == null) {
@@ -54,7 +54,7 @@ public class DragonEvent {
 			ItemEntity elytra = new ItemEntity(world, pos.getX(), pos.getY()+1, pos.getZ(), elytrastack);
 			world.addFreshEntity(elytra);
 			
-			StringFunctions.sendMessage(player, "The elytra dropped at your position!", ChatFormatting.YELLOW);
+			MessageFunctions.sendMessage(player, "The elytra dropped at your position!", ChatFormatting.YELLOW);
 		}
 	}
 }
