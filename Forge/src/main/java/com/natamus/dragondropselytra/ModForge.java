@@ -2,6 +2,7 @@ package com.natamus.dragondropselytra;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
+import com.natamus.dragondropselytra.forge.config.IntegrateForgeConfig;
 import com.natamus.dragondropselytra.forge.events.ForgeDragonEvent;
 import com.natamus.dragondropselytra.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,8 @@ public class ModForge {
 
 		setGlobalConstants();
 		ModCommon.init();
+
+		IntegrateForgeConfig.registerScreen(modLoadingContext);
 
 		RegisterMod.register(Reference.NAME, Reference.MOD_ID, Reference.VERSION, Reference.ACCEPTED_VERSIONS);
 	}

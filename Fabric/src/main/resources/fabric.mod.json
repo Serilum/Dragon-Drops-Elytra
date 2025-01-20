@@ -16,7 +16,7 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.dragondropselytra.ModFabric" ] },
+  "entrypoints": { "main": [ "com.natamus.dragondropselytra.ModFabric" ], "modmenu": [ "com.natamus.dragondropselytra.fabric.config.IntegrateModMenu" ] },
 
   "depends": {
     "fabricloader": ">=0.15.0",
