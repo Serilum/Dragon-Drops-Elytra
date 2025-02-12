@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "dragondropselytra",
-  "version": "3.4",
+  "version": "3.5",
 
   "name": "Dragon Drops Elytra",
   "description": "A minimalistic mod that makes the Ender Dragon drop an elytra on death.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.78"
+    "collective": ">=7.91"
   },
 
   "custom": {
@@ -45,9 +45,11 @@
 	  " Andrean Olgo",
 	  " aternosorg",
 	  " Cherriesaurus",
+	  " David Sanchez",
+	  " drdog111",
 	  " Michael W. S.",
-	  " Nahuel Fernandez",
-	  " Shana Gitnick",
-	  " Tyler Behl"
+	  " t128",
+	  " Tyler Behl",
+	  " XAgent"
   ]
 }
