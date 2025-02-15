@@ -2,10 +2,12 @@ package com.natamus.dragondropselytra;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
+import com.natamus.dragondropselytra.neoforge.config.IntegrateNeoForgeConfig;
 import com.natamus.dragondropselytra.neoforge.events.NeoForgeDragonEvent;
 import com.natamus.dragondropselytra.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 
@@ -21,6 +23,8 @@ public class ModNeoForge {
 
 		setGlobalConstants();
 		ModCommon.init();
+
+		IntegrateNeoForgeConfig.registerScreen(ModLoadingContext.get());
 
 		RegisterMod.register(Reference.NAME, Reference.MOD_ID, Reference.VERSION, Reference.ACCEPTED_VERSIONS);
 	}
