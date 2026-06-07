@@ -42,7 +42,7 @@ public class DragonEvent {
 			player = (Player)source;
 		}
 		
-		MessageFunctions.broadcastMessage(world, "It seems like the slain Ender Dragon dropped an elytra! Perhaps it previously belonged to another adventurer?", ChatFormatting.DARK_GREEN);
+		MessageFunctions.broadcastTranslatableMessage(world, "collective.dragondropselytra.message.seemslikeslain", ChatFormatting.DARK_GREEN);
 		
 		ItemStack elytrastack = new ItemStack(Items.ELYTRA, 1);
 		if (player == null) {
@@ -54,7 +54,7 @@ public class DragonEvent {
 			ItemEntity elytra = new ItemEntity(world, pos.getX(), pos.getY()+1, pos.getZ(), elytrastack);
 			world.addFreshEntity(elytra);
 			
-			MessageFunctions.sendMessage(player, "The elytra dropped at your position!", ChatFormatting.YELLOW);
+			MessageFunctions.sendTranslatableMessage(player, "collective.dragondropselytra.message.elytradroppedposition", ChatFormatting.YELLOW);
 		}
 	}
 }
