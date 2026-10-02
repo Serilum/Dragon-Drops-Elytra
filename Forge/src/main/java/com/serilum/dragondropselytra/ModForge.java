@@ -1,9 +1,9 @@
-package com.natamus.dragondropselytra;
+package com.serilum.dragondropselytra;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.dragondropselytra.forge.events.ForgeDragonEvent;
-import com.natamus.dragondropselytra.util.Reference;
+import com.serilum.dragondropselytra.forge.events.ForgeDragonEvent;
+import com.serilum.dragondropselytra.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeDragonEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeDragonEvent.class);
 	}
 
 	private static void setGlobalConstants() {

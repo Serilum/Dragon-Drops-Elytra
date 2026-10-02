@@ -1,6 +1,6 @@
-package com.natamus.dragondropselytra.neoforge.events;
+package com.serilum.dragondropselytra.neoforge.events;
 
-import com.natamus.dragondropselytra.events.DragonEvent;
+import com.serilum.dragondropselytra.events.DragonEvent;
 import net.minecraft.world.entity.Entity;
 import net.neoforged.neoforge.event.entity.living.LivingDropsEvent;
 import net.neoforged.bus.api.SubscribeEvent;
