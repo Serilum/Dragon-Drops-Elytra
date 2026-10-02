@@ -1,4 +1,4 @@
-package com.natamus.dragondropselytra.events;
+package com.serilum.dragondropselytra.events;
 
 import com.natamus.collective.functions.MessageFunctions;
 import net.minecraft.ChatFormatting;
