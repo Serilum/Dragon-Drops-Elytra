@@ -1,10 +1,10 @@
-package com.natamus.dragondropselytra;
+package com.serilum.dragondropselytra;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveEntityEvents;
-import com.natamus.dragondropselytra.events.DragonEvent;
-import com.natamus.dragondropselytra.util.Reference;
+import com.serilum.dragondropselytra.events.DragonEvent;
+import com.serilum.dragondropselytra.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
