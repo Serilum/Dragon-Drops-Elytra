@@ -1,9 +1,9 @@
-package com.natamus.dragondropselytra;
+package com.serilum.dragondropselytra;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.dragondropselytra.neoforge.events.NeoForgeDragonEvent;
-import com.natamus.dragondropselytra.util.Reference;
+import com.serilum.dragondropselytra.neoforge.events.NeoForgeDragonEvent;
+import com.serilum.dragondropselytra.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;

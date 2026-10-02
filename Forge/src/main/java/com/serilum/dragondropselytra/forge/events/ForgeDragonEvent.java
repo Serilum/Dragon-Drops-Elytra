@@ -1,6 +1,6 @@
-package com.natamus.dragondropselytra.forge.events;
+package com.serilum.dragondropselytra.forge.events;
 
-import com.natamus.dragondropselytra.events.DragonEvent;
+import com.serilum.dragondropselytra.events.DragonEvent;
 import net.minecraft.world.entity.Entity;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;

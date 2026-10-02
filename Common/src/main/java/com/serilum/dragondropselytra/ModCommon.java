@@ -1,4 +1,4 @@
-package com.natamus.dragondropselytra;
+package com.serilum.dragondropselytra;
 
 
 public class ModCommon {
